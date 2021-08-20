@@ -6,7 +6,7 @@ class MainWidget():
     pass
 
 class TheLabApp(App):
-    pass
+    print("hello")
 
 
 TheLabApp().run()
