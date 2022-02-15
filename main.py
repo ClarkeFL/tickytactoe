@@ -1,9 +1,12 @@
+from tkinter import Widget
 from kivy.app import App
 from kivy.uix.button import Button
 
+class MainWidget(Widget):
+    pass
+
 class TickyTacToe(App):
-    def build(self):
-        return Button(text='Hello World')
+    pass
 
 if __name__ == '__main__':
     TickyTacToe().run()
